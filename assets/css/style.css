@@ -95,9 +95,15 @@ p {
 }
 
 .header__logo {
+    display: flex;
+    align-items: center;
     font-size: 30px;
     font-weight: 100;
     color: #00e0d0;
+}
+
+.logo {
+    margin-right: 11px;
 }
 
 /* Nav */
@@ -462,4 +468,25 @@ p {
     letter-spacing: 0.4px;
     margin-bottom: 50px;
     opacity: 0.85;
+}
+
+.your__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    margin: 45px 0 70px;
+}
+
+.your__photo {
+    margin-right: 14px;
+}
+
+.your__photo--last {
+    margin-right: 0;
+}
+
+.scroll {
+    margin: 0 32px;
+    color: #fff;
 }

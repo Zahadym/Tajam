@@ -134,7 +134,7 @@ p {
     display: inline-block;
     vertical-align: top;
     padding: 7px 13px;
-
+    background: 0;
     border: 1px solid #00e0d0;
 
     color: #00e0d0;
@@ -156,6 +156,11 @@ p {
 
 .btn--mg {
     margin-bottom: 70px;
+}
+
+.btn--form {
+    padding: 7px 32px;
+    margin-bottom: 80px;
 }
 
 /* Circle */
@@ -480,13 +485,59 @@ p {
 
 .your__photo {
     margin-right: 14px;
+    height: 45px;
+    width: 45px;
 }
 
 .your__photo--last {
     margin-right: 0;
 }
 
+.your--active {
+    height: 70px;
+    width: 70px;
+}
+
 .scroll {
     margin: 0 32px;
     color: #fff;
+}
+
+/* Happy news */
+
+.form {
+    display: flex;
+    text-align: left;
+}
+
+.form__text {
+    width: 460px;
+    height: 45px;
+    margin-top: 21px;
+    border: 1px solid #000000;
+    opacity: 0.1;
+}
+
+.form__massage {
+    width: 460px;
+    height: 200px;
+    margin: 21px 0;
+    border: 1px solid #000000;
+    opacity: 0.1;
+}
+
+.happy__news {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.right__block {
+    padding-left: 90px;
+}
+
+.logo__clients {
+    object-fit: cover;
+    max-height: 100%;
 }

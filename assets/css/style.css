@@ -148,6 +148,10 @@ p {
     color: #fff;
 }
 
+.btn--mg {
+    margin-bottom: 70px;
+}
+
 /* Circle */
 .circle {
     width: 10px;
@@ -407,19 +411,24 @@ p {
 
 .project__icon {
     position: relative;
-    left: 20px;
-    top: -10px;
+    left: 10px;
+    top: 1px;
 }
 
 .project__img {
-    height: 400px;
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.project__block {
     width: 100%;
-    margin-bottom: 70px;
+    flex: 1 1 0;
 }
 
 .project__photo {
-    margin: 0;
-    padding: 0;
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 /* People */
@@ -445,15 +454,12 @@ p {
 }
 
 .people__text {
-    width: 770px;
-    margin: 0 auto;
-    width: 770px;
-    height: 95px;
-    opacity: 0.85;
     color: #ffffff;
     font-family: "Playfair Display";
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.4px;
+    margin-bottom: 50px;
+    opacity: 0.85;
 }

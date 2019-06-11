@@ -483,6 +483,25 @@ p {
     opacity: 0.85;
 }
 
+i {
+    border: solid #fff;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 8px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
 .your__img {
     display: flex;
     align-items: center;

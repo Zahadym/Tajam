@@ -564,6 +564,25 @@ footer input {
     opacity: none;
 }
 
+.form__text::-webkit-input-placeholder       { transition: opacity 0.3s ease;}
+.form__text::-moz-placeholder                { transition: opacity 0.3s ease;}
+.form__text:-moz-placeholder                 { transition: opacity 0.3s ease;}
+.form__text:-ms-input-placeholder            { transition: opacity 0.3s ease;}
+.form__text:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.form__text:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.form__text:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.form__text:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+
+.form__massage::-webkit-input-placeholder       { transition: opacity 0.3s ease;}
+.form__massage::-moz-placeholder                { transition: opacity 0.3s ease;}
+.form__massage:-moz-placeholder                 { transition: opacity 0.3s ease;}
+.form__massage:-ms-input-placeholder            { transition: opacity 0.3s ease;}
+.form__massage:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.form__massage:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.form__massage:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.form__massage:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
 .form__massage {
     width: 460px;
     height: 200px;
@@ -715,22 +734,3 @@ footer input {
     margin-top: 71px;
 }
 
-
-.form__text::-webkit-input-placeholder       { transition: opacity 0.3s ease;}
-.form__text::-moz-placeholder                { transition: opacity 0.3s ease;}
-.form__text:-moz-placeholder                 { transition: opacity 0.3s ease;}
-.form__text:-ms-input-placeholder            { transition: opacity 0.3s ease;}
-.form__text:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
-.form__text:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
-.form__text:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
-.form__text:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
-
-
-.form__massage::-webkit-input-placeholder       { transition: opacity 0.3s ease;}
-.form__massage::-moz-placeholder                { transition: opacity 0.3s ease;}
-.form__massage:-moz-placeholder                 { transition: opacity 0.3s ease;}
-.form__massage:-ms-input-placeholder            { transition: opacity 0.3s ease;}
-.form__massage:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
-.form__massage:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
-.form__massage:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
-.form__massage:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}

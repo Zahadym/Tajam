@@ -565,15 +565,16 @@ footer input {
 }
 
 .form__massage {
-    position: relative;
     width: 460px;
     height: 200px;
     margin: 21px 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.form__massage::placeholder {
-    justify-content: flex-start;
+.form__textarea {
+    width: 460px;
+    height: 250px;
+
 }
 
 .happy__news {
@@ -584,7 +585,6 @@ footer input {
 }
 
 .right__block {
-    position: relative;
     flex-direction: row;
     padding-left: 90px;
 }

@@ -529,31 +529,32 @@ p {
 ::-webkit-input-placeholder {
     color: #000;
     opacity: 0.5;
-    padding-left: 15px;
 }
 
 :-moz-placeholder {
     color: #000;
     opacity: 0.5;
-    padding-left: 15px;
 }
 
 ::-moz-placeholder {
     color: #000;
     opacity: 0.5;
-    padding-left: 15px;
 }
 
 :-ms-input-placeholder {
     color: #000;
     opacity: 0.5;
-    padding-left: 15px;
 }
 
-.form__massage::placeholder {
-    top: 0;
-    left: 0;
-    z-index: 1;
+input {
+    padding: 0 20px;
+    color: #000;
+    font-size: 16px;
+}
+
+footer input {
+    color: #fff;
+    opacity: none;
 }
 
 .form__massage {
@@ -644,13 +645,11 @@ p {
     background: 0;
     width: 211px;
     height: 45px;
-    border: 1px solid #ffffff;
-    opacity: 0.5;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     margin-top: 0;
 }
 
 .form__footer::placeholder {
-    opacity: 0.75;
     color: #ffffff;
     font-family: Roboto;
     font-size: 14px;
@@ -703,3 +702,4 @@ p {
     justify-content: space-between;
     margin-top: 71px;
 }
+

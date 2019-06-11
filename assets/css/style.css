@@ -425,6 +425,7 @@ p {
     color: #413d4b;
     font-size: 14px;
     font-weight: 300;
+    cursor: pointer;
 }
 
 .project__icon {
@@ -494,6 +495,7 @@ p {
     margin-right: 14px;
     height: 45px;
     width: 45px;
+    cursor: pointer;
 }
 
 .your__photo--last {
@@ -673,6 +675,10 @@ p {
 
 .social__icon:hover {
     fill: #00e0d0;
+}
+
+.text-decor {
+    text-decoration: none;
 }
 
 .nav__last {

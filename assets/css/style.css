@@ -143,7 +143,7 @@ p {
     padding: 7px 13px;
     background: 0;
     border: 1px solid #00e0d0;
-
+    cursor: pointer;
     color: #00e0d0;
     text-transform: uppercase;
     text-decoration: none;
@@ -262,7 +262,7 @@ p {
     align-items: center;
 }
 
-.play__item p {
+.play__title {
     padding-top: 10px;
     font-size: 16px;
     color: #fff;
@@ -578,7 +578,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo__clients {
@@ -592,4 +592,94 @@ p {
     height: 400px;
     background: #302851 url("../img/footer__bg.jpg") center no-repeat;
     background-size: cover;
+}
+
+.footer__container {
+    display: flex;
+    padding-top: 70px;
+}
+
+.footer__block {
+    width: 33.3333%;
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-right: 26px;
+}
+
+.footer__block:last-child {
+    padding-right: 0;
+}
+
+.play__title--w {
+    width: 100%;
+    margin-bottom: 42px;
+}
+
+.point {
+    padding: 3px 16px 0 0;
+}
+
+.adress {
+    width: 237px;
+    margin-bottom: 27px;
+}
+
+.text__footer {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.35px;
+}
+
+.play__title--ww {
+    margin-bottom: 30px;
+}
+
+.form__footer {
+    background: 0;
+    width: 211px;
+    height: 45px;
+    border: 1px solid #ffffff;
+    opacity: 0.5;
+    margin-top: 0;
+}
+
+.form__footer::placeholder {
+    opacity: 0.75;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+}
+
+.btn--footer {
+    padding: 10px 22px 2px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    opacity: 0.4;
+}
+
+.social__icon {
+    margin: 20px 8px 0 0;
+}
+
+.nav__last {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 71px;
 }

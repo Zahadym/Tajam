@@ -528,22 +528,22 @@ p {
 
 ::-webkit-input-placeholder {
     color: #000;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 :-moz-placeholder {
     color: #000;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 ::-moz-placeholder {
     color: #000;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 :-ms-input-placeholder {
     color: #000;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 input,
@@ -551,7 +551,7 @@ textarea {
     opacity: .8;
     padding: 0 20px;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -714,3 +714,23 @@ footer input {
     justify-content: space-between;
     margin-top: 71px;
 }
+
+
+.form__text::-webkit-input-placeholder       { transition: opacity 0.3s ease;}
+.form__text::-moz-placeholder                { transition: opacity 0.3s ease;}
+.form__text:-moz-placeholder                 { transition: opacity 0.3s ease;}
+.form__text:-ms-input-placeholder            { transition: opacity 0.3s ease;}
+.form__text:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.form__text:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.form__text:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.form__text:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+
+.form__massage::-webkit-input-placeholder       { transition: opacity 0.3s ease;}
+.form__massage::-moz-placeholder                { transition: opacity 0.3s ease;}
+.form__massage:-moz-placeholder                 { transition: opacity 0.3s ease;}
+.form__massage:-ms-input-placeholder            { transition: opacity 0.3s ease;}
+.form__massage:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.form__massage:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.form__massage:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.form__massage:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}

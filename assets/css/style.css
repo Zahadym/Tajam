@@ -665,6 +665,14 @@ p {
 
 .social__icon {
     margin: 20px 8px 0 0;
+    fill: #fff;
+    height: 35px;
+    width: 35px;
+    transition: fill .2s linear;
+}
+
+.social__icon:hover {
+    fill: #00e0d0;
 }
 
 .nav__last {
@@ -676,6 +684,12 @@ p {
     letter-spacing: 0.35px;
     text-decoration: none;
     margin-right: 30px;
+
+    transition: color .1s linear;
+}
+
+.nav__last:hover {
+    color: #00e0d0;
 }
 
 .footer__bottom {

@@ -753,3 +753,81 @@ footer input {
     margin-top: 71px;
 }
 
+
+
+
+
+/* --------------------------------------------------  */
+
+.reviews__item {
+    padding-left: 17px;
+}
+
+.reviews__photo {
+    display: block;
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.reviews__item {
+    min-height: 55px;
+    padding-left: 55px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slider__container {
+    margin: 100px;
+    width: 350px;
+    height: 10px;
+}
+
+.slick-arrow {
+    display: block;
+    font-size: 0;
+    color: transparent;
+
+    border: 0;
+    background: none;
+    cursor: pointer;
+
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.slick-arrow:focus {
+    outline: 0;
+}
+
+.slick-arrow:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+
+    border-top: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+}
+.slick-arrow {
+    top: 24%;
+}
+
+.slick-prev {
+    left: -30px;
+    transform: rotate(-45deg);
+}
+
+.reviews__btn--next,
+.slick-next {
+    right: -20px;
+    transform: rotate(135deg);
+}

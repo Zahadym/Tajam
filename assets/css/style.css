@@ -77,8 +77,9 @@ p {
 
 .intro__text {
 
-    width: 800px;
+    max-width: 800px;
     margin: 20px auto 40px;
+    padding: 0 20px;
     color: #fff;
     font-weight: 300;
 }
@@ -107,6 +108,7 @@ p {
     font-size: 30px;
     font-weight: 100;
     color: #00e0d0;
+    padding-left: 20px;
 }
 
 .logo {
@@ -225,6 +227,7 @@ p {
 
 .story__item p {
     margin: 15px 0;
+    padding-right: 20px;
 }
 
 .story__title {
@@ -456,7 +459,7 @@ p {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 500px;
+    height: 100%;
     position: relative;
     background: #302851 url("../img/people.jpg") center no-repeat;
     background-size: cover;
@@ -830,4 +833,219 @@ footer input {
 .slick-next {
     right: -20px;
     transform: rotate(135deg);
+}
+
+/* Media */
+
+@media (max-width: 1000px) {
+    .team {
+        height: auto;
+    }
+
+    .team__blocks {
+        flex-wrap: wrap;
+        margin:  0 auto 80px;
+        width: 600px;
+    }
+    .team__block:last-child {
+        margin: 20px;
+    }
+
+    .team__block {
+        margin: 20px;
+    }
+
+    .project__title {
+        margin: 70px 20px;
+    }
+
+    .headden {
+        display: none;
+    }
+
+    .right__block {
+  
+        order: 1;
+        width: 450px;
+        padding: 0 0 70px;
+        
+    }
+
+    .happy__news {
+        order: 2;
+        width: 550px;
+    }
+
+    .form {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form__textarea {
+        margin: 0 auto;
+    }
+
+    .footer {
+        height: 100%;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+  
+    }
+
+    .footer__block,
+    .nav__footer,
+    .tm {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .adress {
+        width: 90%;
+    }
+
+    .footer__logo {
+        margin-bottom: 20px;
+    }
+
+    .play__title--w,
+    .play__title--ww {
+        margin-bottom: 10px;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        text-align: start;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .expertise__item {
+        width: 50%;
+        border: none;
+    }
+
+    .headden2 {
+        display: none;
+    }
+}
+
+@media (max-width: 620px)  {
+    .expertise__item {
+        width: 100%;
+    }
+
+    .team__blocks {
+        width: 100%;
+    }
+
+    .team__block {
+
+    }
+
+    .right__block {
+        width: 100%;
+    }
+
+    .happy__news {
+        width: 100%;
+    }
+
+    .form__text,
+    .form__textarea {
+        width: 90%;
+    }
+
+    .form__massage {
+        width: 100%;
+    }
+
+    .story {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .story__img {
+        width: 100%;
+    }
+
+    .story__item {
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .project__title {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .expertise__title {
+        margin-bottom: 10px;
+    }
+
+    .your__img {
+        width: 100%;
+    }
+
+    .slider__container {
+        width: 200px;
+    }
+
+    .reviews__photo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .headden3 {
+        display: none;
+    }
+    .right__block {
+        width: 300px;
+    }
+
+    .logo__block {
+        justify-content: center;
+    }
+
+    .logo__clients {
+        
+    }
+
+    .form__textarea {
+        width: 70%;
+    }
+
+    .footer__block {
+        width: 300px;
+        padding: 10px;
+    }
+    .footer__bottom {
+        padding-left: 10px;
+    }
+
+    .nav__footer {
+        width: 290px;
+    }
+
+    .form__text {
+        width: 70%;
+    }
+
+    .nav__last {
+        margin-right: 10px;
+    }
+
+    .tm {
+        width: 290px;
+    }
 }

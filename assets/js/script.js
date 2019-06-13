@@ -5,4 +5,6 @@ $(function() {
         slidesToShow: 5,
         slidesToScroll: 1
     });
+
+    $("body").addClass("animated fadeOut");
   });  
